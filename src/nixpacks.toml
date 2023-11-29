@@ -6,3 +6,4 @@ cmds = ['npm i --legacy-peer-deps']
 
 [phases.build]
 cmds = ['npm run build']
+ 

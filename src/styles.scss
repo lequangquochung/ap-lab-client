@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+// @import "@coreui/coreui/scss/coreui";
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Mulish:wght@200&display=swap');
+
+$base-primary-orange: #FE894C;
+$base-primary-white:#FFF3ED;
+$secondary:#E8F3F9;
+
+
+
+.color-primary-orange {
+  color: $base-primary-orange;
+}
+
+// fontsize
+.font-size-10 {
+  font-size: 10px;
+}
+.font-size-32 {
+  font-size: 32px;
+}
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+.block-rec {
+  width: 57px;
+  height: 2px;
+  background: #FE894C;
+}

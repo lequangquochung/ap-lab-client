@@ -1,0 +1,55 @@
+.block-rec {
+    width: 57px;
+    height: 2px;
+    background: #FE894C;
+    margin-top: 12px;
+    margin-right: 24px;
+}
+
+.text-content {
+    top: 144px;
+    left: 144px;
+}
+
+.main-top-title {
+    color: #FE894C;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-bottom-title {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.bottom-small-title {
+    color: #414141;
+    font-family: Corinthia;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.btn-contact {
+    padding: 10px 16px;
+    border-radius: 6px;
+    // background-color: 
+    background: #FE894C;
+
+    a {
+        color: white;
+    }
+}
+
+.labservice {
+    background-color: #FFD9C6;
+}
+
+.review-lab {
+    min-height: 718px;
+    background-image: url('../../../assets/img/caro/bg-review.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

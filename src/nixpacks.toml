@@ -1,12 +1,8 @@
 [phases.setup]
-  nixPkgs = ['...', 'jq'] # jq is needed to parse the outputPath from our angular.json file
+nixPkgs = ['nodejs', 'npm']
 
 [phases.install]
-[start]
-  cmd = "npm i --legacy-peer-deps"
+cmds = ['npm i --legacy-peer-deps']
 
 [phases.build]
-cmd = "npm run build"
-
-[start]
-  cmd = "npm run start"
+cmds = ['npm run build']

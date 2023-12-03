@@ -7,8 +7,8 @@
 }
 
 .text-content {
-    top: 144px;
-    left: 144px;
+    top: 25%;
+    left: 20%;
 }
 
 .main-top-title {
@@ -34,7 +34,6 @@
 .btn-contact {
     padding: 10px 16px;
     border-radius: 6px;
-    // background-color: 
     background: #FE894C;
 
     a {
@@ -53,3 +52,51 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.block-footer {
+    background-image: url('../../../assets/img/bg/frame-5.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about-us{
+    background-image: url('../../../assets/img/bg/frame-2-1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.block-tech-news{
+    background-image: url('../../../assets/img/bg/frame-4.jpg');
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item {
+    cursor: pointer;
+  }
+  
+  .logo-text-big {
+    font-weight: bold;
+  }
+  
+  .bg-nav-primary {
+    background-color: #E8F3F9 !important;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+  }
+  
+  .btn-contact {
+    padding: 10px 16px;
+    border-radius: 6px;
+    // background-color: 
+    background: #FE894C;
+  
+    a {
+      color: white;
+    }
+  }

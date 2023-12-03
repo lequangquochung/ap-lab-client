@@ -5,8 +5,14 @@
   font-weight: 700;
 }
 
-.slide-img {
-  border: 10px solid white;
+.border-img-slide{
+  border: 2px solid #FE894C;
   border-radius: 6px;
-  object-fit: cover;
+  .slide-img {
+    border: 10px solid white;
+    border-radius: 3px;
+    object-fit: cover;
+    width: 100%;
+  }
 }
+

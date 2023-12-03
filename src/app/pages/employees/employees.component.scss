@@ -1,0 +1,42 @@
+.card-employee {
+    width: 360px;
+    height: 390px;
+    border-radius: 6px;
+    border: 1px solid #FE894C;
+    padding: 23px;
+
+    .img-employee {
+        img {
+            object-fit: contain;
+        }
+    }
+
+    .e-name {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .e-dr {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+}
+
+.employe-nav {
+    height: 120px;
+    background-image: url('../../../assets/img/bg/employee-nav.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .employees-title {
+        color: #FE894C;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+}

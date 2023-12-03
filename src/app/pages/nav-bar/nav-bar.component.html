@@ -3,7 +3,7 @@
       <div class="left-nav d-flex">
           <div class="logo">
               <a class="navbar-brand" href="#">
-                  <img src="/assets/img/logo-header.png" alt="Bootstrap" width="72" height="72">
+                  <img src="/assets/img/logo-header.png" alt="An Phuc" width="72" height="72">
               </a>
           </div>
           <div class="logo-text">
@@ -18,20 +18,20 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                  <a class="nav-link" href="#">Giới Thiệu</a>
+                  <a class="nav-link">Giới Thiệu</a>
+              </li>
+              <li class="nav-item" >
+                  <a class="nav-link ms-4" routerLink="/lab-services">Dịch Vụ</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link ms-4" href="#">Dịch Vụ</a>
+                  <a class="nav-link ms-4" routerLink="topic">Tin Tức</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link ms-4" href="#">Tin Tức</a>
+                  <a class="nav-link ms-4" routerLink="employees">Nhân Sự</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link ms-4" href="#">Nhân Sự</a>
-              </li>
-              <li class="nav-item">
-                  <button class="btn p ms-4 btn-contact">
-                      <a class="nav-link p-0" href="">Liên Hệ </a>
+                  <button class="btn p ms-4 btn-contact" (click)="clickScrollToDiv()">
+                      <a class="nav-link p-0">Liên Hệ </a>
                   </button>
               </li>
           </ul>

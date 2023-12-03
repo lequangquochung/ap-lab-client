@@ -1,0 +1,22 @@
+<div class="row p-0 employe-nav d-flex align-items-center w-100">
+    <h1 class="text-center employees-title">TIN TỨC</h1>
+</div>
+<div class="container py-5">
+    <div class="row d-flex justify-content-center" *ngFor="let topic of listTopic">
+        <div class="col-md-10 mt-5" >
+            <div class="content-news d-flex">
+                <div class="thumnails me-5">
+                    <img [src]="topic.thumbnail" width="200" alt="">
+                </div>
+                <div class="content-news-text">
+                    <p class="news-title"  (click)="clickToDetailNews(topic.id)">
+                       {{topic.title}}
+                    </p>
+                    <p class="sub-content">{{topic.subContent}}</p>
+                    <p class="date-create">{{topic.createdDate | date: 'dd/MM/yyyy'}}</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <p-paginator [rows]="rows" [totalRecords]="totalRecords" (onPageChange)="paginate($event)"></p-paginator>
+</div>

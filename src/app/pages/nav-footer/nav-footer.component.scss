@@ -1,0 +1,51 @@
+.footer {
+    padding: 0 1rem;
+}
+
+p {
+    margin: 0;
+}
+
+.content-service {
+    background: #FE894C;
+    border-radius: 5px;
+    padding: 3px 6px;
+
+    p {
+        font-weight: 500;
+    }
+}
+
+.crown-icon {
+    left: 2rem;
+    top: -3px;
+}
+
+.footer-title-service,
+.footer-title-contact {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer {
+    .top-block {
+        .main-top-title {
+            color: #FE894C;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+        }
+    }
+
+    .bottom-block {
+        .main-bottom-title {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32px
+        }
+    }
+
+}

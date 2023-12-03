@@ -1,4 +1,4 @@
-p{
+p {
     padding: 0;
 }
 
@@ -21,22 +21,26 @@ p{
 
 .main-news {
     padding: 0 2rem;
+
     .img-news {
         img {
             border-top: 2px solid #FE894C;
+            cursor: pointer;
         }
     }
 }
 
 .child-news {
     padding: 0 2rem;
+
     .title-child-news {
         font-size: 28px;
         font-style: normal;
         font-weight: 600;
         line-height: 1rem;
     }
-    .img-content-detail{
+
+    .img-content-detail {
         img {
             border-top: 2px solid #FE894C;
         }
@@ -45,12 +49,61 @@ p{
 
 
 .main-news-content {
-    .news-title {
+    p.news-title {
         font-size: 28px;
         font-style: normal;
         font-weight: 600;
-        line-height: 36px
+        line-height: 36px;
+        cursor: pointer;
     }
 
 
+
+}
+
+.btn-read-more {
+    padding-right: 1.5rem;
+
+    button {
+        background: none;
+        cursor: pointer;
+        border: none;
+        color: #FE894C;
+        font-weight: bold;
+    }
+}
+
+
+
+.child-news {
+    .content-detail-text {
+        cursor: pointer;
+    }
+}
+
+.title-child-news-text {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.child-news-sub-content {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.date-create {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px
+}
+
+
+
+.main-news-thumbnail {
+    object-fit: cover;
 }

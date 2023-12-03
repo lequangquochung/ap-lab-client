@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Mulish:wght@200&display=swap');
 
 $base-primary-orange: #FE894C;
-$base-primary-white:#FFF3ED;
-$secondary:#E8F3F9;
+$base-primary-white: #FFF3ED;
+$secondary: #E8F3F9;
 
 
 
@@ -18,9 +18,11 @@ $secondary:#E8F3F9;
 .font-size-10 {
   font-size: 10px;
 }
+
 .font-size-32 {
   font-size: 32px;
 }
+
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 
@@ -28,4 +30,8 @@ $secondary:#E8F3F9;
   width: 57px;
   height: 2px;
   background: #FE894C;
+}
+
+p {
+  margin: 0;
 }

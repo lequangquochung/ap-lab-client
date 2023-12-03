@@ -1,0 +1,47 @@
+.employe-nav {
+    height: 120px;
+    background-image: url('../../../assets/img/bg/employee-nav.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .employees-title {
+        color: #FE894C;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+}
+
+.content-lab-detail {
+    .header {
+        height: 48px;
+        padding: 49px 23px;
+        border-radius: 6px;
+        // background: #FF8181;
+        box-shadow: 1.96957px 1.96957px 4.92392px 0px rgba(0, 0, 0, 0.25);
+
+        p.text-header {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+        }
+    }
+
+    .col-item {
+        flex-basis: calc(45%);
+        margin-right: 2rem;
+        box-sizing: border-box;
+    }
+
+    .body-content {
+        .detailt-item {
+            flex-basis: calc(50% - 10px);
+            margin: 3px 3px 3px 0;
+            box-sizing: border-box;
+        }
+
+       
+    }
+}

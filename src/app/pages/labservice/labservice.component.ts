@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LabServiceContentService } from './service/labservicecontent.service';
 
 @Component({
   selector: 'app-labservice',
@@ -6,17 +7,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./labservice.component.scss']
 })
 export class LabserviceComponent implements OnInit {
-  
-  listService = [
-    {id: 1, name: 'GIẢI PHẪU BỆNH'},
-    {id: 2, name: 'HUYẾT HỌC ĐÔNG MÁU'},
-    {id: 3, name: 'KÝ SINH TRÙNG'},
-    {id: 4, name: 'MIỄN DỊCH'},
-    {id: 5, name: 'NƯỚC TIỂU'},
-    {id: 6, name: 'Sàng lọc chẩn đoán trước sinh và sơ sinh'},
-  ] ;
 
+  serviceData: any[] = [];
+
+  constructor(
+    private labServiceContentService: LabServiceContentService
+  ) {
+
+  }
   ngOnInit(): void {
+    this.getListLabService();
   }
 
+  getListLabService() {
+    this.labServiceContentService.getListLabService().subscribe({
+      next: (res) => {
+        this.serviceData = res.data;
+      }
+    })
+  }
 }

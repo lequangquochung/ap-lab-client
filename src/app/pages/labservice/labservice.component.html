@@ -1,11 +1,13 @@
 <div class="row mt-5">
-  <div class="list-service mt-5">
+  <div class="list-service mt-5 d-flex flex-column">
     <div class="title-service">
       <span class="text-title">DANH MỤC XÉT NGHIỆM</span>
     </div>
-    <div class="service-content px-5 mt-5">
-      <ng-container *ngFor="let item of listService ">
-        <button class="btn-service me-3 mt-3">{{item.name}}</button>
+    <div class="service-content mt-5 d-flex flex-wrap align-self-center">
+      <ng-container *ngFor="let item of serviceData ">
+        <button class="btn-service me-3 mt-3">
+            <span>{{item.title}}</span>
+        </button>
       </ng-container>
 
     </div>

@@ -1,0 +1,47 @@
+.employe-nav {
+    height: 120px;
+    background-image: url('../../../assets/img/bg/employee-nav.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .employees-title {
+        color: #FE894C;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+}
+
+
+.content-news {
+    .thumnails {
+        img {
+            border-top: 2px solid #FE894C;
+        }
+    }
+}
+
+.content-news-text {
+    .news-title {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2rem;
+    }
+
+    .sub-content {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 47.948px;
+    }
+
+    .date-create {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        color: #505050;
+    }
+}

@@ -5,9 +5,10 @@
   font-weight: 700;
 }
 
-.border-img-slide{
+.border-img-slide {
   border: 2px solid #FE894C;
   border-radius: 6px;
+
   .slide-img {
     border: 10px solid white;
     border-radius: 3px;
@@ -16,3 +17,6 @@
   }
 }
 
+::ng-deep.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: #FE894C !important;
+}

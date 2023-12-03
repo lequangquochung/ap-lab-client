@@ -18,7 +18,7 @@ export class NewsDetailComponent implements OnInit {
             const newsId = params.get('id');
             this.newsId = newsId!;
         });
-     }
+    }
     ngOnInit(): void {
         this.getListTopic();
     }
@@ -31,9 +31,7 @@ export class NewsDetailComponent implements OnInit {
         this.topicService.getTopicDetail(this.newsId).subscribe({
             next: (res) => {
                 if (res.success) {
-                    //   this.listTopic = res.data;
-                    this.dataNews =  res.data;
-                      console.log(res.data);
+                    this.dataNews = res.data;
                 }
             }
         });

@@ -26,8 +26,6 @@ export class ServiceDetailComponent implements OnInit {
                 if(res.success){
                     this.data = res.data;
                     this.data = this.data.filter(item => item.details.length);
-                    console.log(this.data);
-                    
                 }
             }
         })

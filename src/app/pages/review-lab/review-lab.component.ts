@@ -30,7 +30,7 @@ export class ReviewLabComponent implements OnInit {
         this.products = [
             {
                 name: 'hung',
-                src: '../../../assets/img/caro/caro-3.png'
+                src: '/assets/img/caro/caro-3.png'
             },
             {
                 name: 'huz',
@@ -44,7 +44,6 @@ export class ReviewLabComponent implements OnInit {
                 name: 'huz',
                 src: 'https://media.istockphoto.com/id/1210681509/fr/photo/les-mains-de-femme-placent-ensemble-comme-priant-devant-le-fond-de-ciel-de-coucher-du-soleil.jpg?s=170667a&w=0&k=20&c=xYmFB7HORtzk_Y9N3yuYwNOc9dp5wduG1DU9bRWzk0k='
             }
-
         ]
     }
 

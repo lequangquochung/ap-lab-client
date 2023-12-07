@@ -56,8 +56,6 @@ export class ListNewsComponent implements OnInit {
             pageIndex: e.page + 1,
             take: 10
         }
-        console.log(payload);
-        
         this.topicService.getListTopic(payload).subscribe({
             next: (res) => {
                 if (res.success) {

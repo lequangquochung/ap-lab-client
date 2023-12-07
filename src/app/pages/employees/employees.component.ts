@@ -24,8 +24,6 @@ export class EmployeesComponent implements OnInit {
                         item.thumbnail = this.convertToImg(item.thumbnail);
                         return item;
                     });
-                    console.log(this.data);
-                    
                 }
             }
         })

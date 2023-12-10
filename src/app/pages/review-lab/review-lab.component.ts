@@ -30,7 +30,7 @@ export class ReviewLabComponent implements OnInit {
         this.products = [
             {
                 name: 'hung',
-                src: '/assets/img/caro/caro-3.png'
+                src: 'assets/img/caro/caro-3.png'
             },
             {
                 name: 'huz',

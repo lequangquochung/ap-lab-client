@@ -5,7 +5,7 @@
     </div>
     <div class="service-content mt-5 d-flex flex-wrap align-self-center">
       <ng-container *ngFor="let item of serviceData ">
-        <button class="btn-service me-3 mb-3">
+        <button class="btn-service me-3 mb-3" (click)="clickToServiceDetail(item.id)">
             <span>{{item.title}}</span>
         </button>
       </ng-container>

@@ -18,6 +18,7 @@ import { ListNewsComponent } from './pages/list-news/list-news.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import {PaginatorModule} from 'primeng/paginator';
+import { LabDetailComponent } from './pages/lab-detail/lab-detail.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {PaginatorModule} from 'primeng/paginator';
     EmployeesComponent,
     NewsDetailComponent,
     ServiceDetailComponent,
-    ListNewsComponent
+    ListNewsComponent,
+    LabDetailComponent
   ],
   imports: [
     BrowserModule,

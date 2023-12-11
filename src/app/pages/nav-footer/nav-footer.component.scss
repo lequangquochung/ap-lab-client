@@ -48,8 +48,40 @@ p {
         }
     }
 
-    .footer-title-contact-text, .social-btn {
+    .footer-title-contact-text,
+    .social-btn {
         padding-left: 5rem;
     }
+
+    @media (min-width: 375px) and (max-width: 768px) {
+        .footer-text {
+            .content-service {
+                width: 80% !important;
+                margin: 1rem 0 !important;
+            }
+
+            .mobile-crow-block {
+                margin: 0 !important;
+                justify-content: center;
+                width: 100%;
+                .crown-icon{
+                    left: 0;
+                    top: 1rem;
+                }
+            }
+
+            .mobile-service {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .footer-title-contact-text {
+                padding-left: 0;
+            }
+        }
+        
+    }
+
 
 }

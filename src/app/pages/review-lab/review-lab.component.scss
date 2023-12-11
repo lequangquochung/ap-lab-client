@@ -20,3 +20,9 @@
 ::ng-deep.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
   background-color: #FE894C !important;
 }
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .review-title-text {
+    font-size: 28px;
+  }
+}

@@ -102,8 +102,40 @@ p {
     line-height: 16px
 }
 
+.news-content-mobile {
+    display: none;
+}
 
 
 .main-news-thumbnail {
     object-fit: cover;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .news-content {
+        display: none;
+    }
+
+    .news-content-mobile {
+        display: block;
+
+        .title-child-news-text {
+            font-size: 16px;
+            line-height: 24px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .content-detail-text {
+            position: relative;
+
+            .date-create {
+                position: absolute;
+                bottom: 0;
+            }
+        }
+    }
 }

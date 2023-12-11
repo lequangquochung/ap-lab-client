@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 })
 export class TechNewsComponent implements OnInit {
     data: any;
+    dataMobile: any;
     firstNews: any;
     constructor(
         private router: Router,
@@ -30,6 +31,7 @@ export class TechNewsComponent implements OnInit {
         this.techNewsService.getListTopic(payload).subscribe({
             next: (res) => {
                 if (res.success) {
+                    this.dataMobile = res.data;
                     this.data = res.data.map((item: any) => {
                         item.thumbnail = this.convertToImg(item.thumbnail);
                         return item;

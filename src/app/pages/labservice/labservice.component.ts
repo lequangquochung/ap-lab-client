@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LabServiceContentService } from './service/labservicecontent.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-labservice',
@@ -11,6 +12,7 @@ export class LabserviceComponent implements OnInit {
   serviceData: any[] = [];
 
   constructor(
+    private router: Router,
     private labServiceContentService: LabServiceContentService
   ) {
 
@@ -26,4 +28,9 @@ export class LabserviceComponent implements OnInit {
       }
     })
   }
+
+  clickToServiceDetail(id: string) {
+    this.router.navigate([`lab-detail/${id}`]);
+  }
+
 }

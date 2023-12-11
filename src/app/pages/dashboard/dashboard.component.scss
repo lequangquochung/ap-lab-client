@@ -100,3 +100,18 @@
       color: white;
     }
   }
+
+  @media  (min-width: 375px) and (max-width: 768px) {
+    .text-content{
+        display: none;
+    }
+    // .block-rec{
+    //     display: none;
+    // }
+    // .main-bottom-title{
+    //     font-size: 2rem;
+    // }
+    // .main-top-title{
+    //     font-size: 16px;
+    // }
+  }

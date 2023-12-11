@@ -24,3 +24,27 @@
   
 }
 
+
+@media  (min-width: 375px) and (max-width: 768px) {
+  .block-rec{
+    display: none;
+  }
+  .text-block-about-us{
+    width: 100%;
+  }
+  .img-block-about-us{
+    display: none;
+  }
+  .about-text-title{
+    margin-left: 0;
+    justify-content: center;
+  }
+  #aboutUs{
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .about-title{
+    font-size: 28px;
+  }
+}
+

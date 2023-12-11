@@ -20,6 +20,7 @@
 
 .title-service {
   margin-left: 5.5rem;
+
   .text-title {
     font-size: 32px;
     font-style: normal;
@@ -30,4 +31,26 @@
 
 .service-content {
   width: 80%;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .title-service {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+
+    .text-title {
+      font-size: 28px;
+    }
+
+  }
+
+  .service-content {
+    justify-content: center;
+    .btn-service {
+      width: 100%;
+      margin-right: 0 !important;
+    }
+  }
+
 }

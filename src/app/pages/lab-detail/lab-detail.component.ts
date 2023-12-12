@@ -15,8 +15,6 @@ export class LabDetailComponent implements OnInit {
     this.route.paramMap.subscribe(params => {
       const detailId = params.get('id');
       this.detailId = detailId!;
-      console.log('detailId', this.detailId);
-
     });
   }
   ngOnInit(): void {
@@ -28,7 +26,6 @@ export class LabDetailComponent implements OnInit {
       next: (res) => {
         if (res.success) {
           this.data = res.data;
-          console.log(this.data);
         }
       }
     })

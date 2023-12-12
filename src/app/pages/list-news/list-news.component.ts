@@ -50,7 +50,6 @@ export class ListNewsComponent implements OnInit {
         this.router.navigate([`topic/${id}`]);
     }
     paginate(e: any){
-        console.log(e); 
         this.listTopic = [];
         let payload = {
             pageIndex: e.page + 1,

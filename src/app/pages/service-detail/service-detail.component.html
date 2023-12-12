@@ -3,8 +3,8 @@
 </div>
 <div class="container content-lab-detail">
     <ng-container>
-        <div class="d-flex mt-5 flex-wrap">
-            <div class="col-item" *ngFor="let parentItem of data">
+        <div class="d-flex mt-5 flex-wrap row">
+            <div class="col col-item" *ngFor="let parentItem of data">
                 <div class="header d-flex align-items-center justify-content-center" [style.background]="parentItem?.bgColor">
                     <p class="text-header">{{parentItem.title}}</p>
                 </div>
@@ -13,7 +13,7 @@
                         <div class="detailt-item d-flex align-items-baseline"
                             *ngFor="let childItem of parentItem.details">
                             <img src="assets/img/icon/rec-detail.png" alt="" width="12">
-                            <span class="ms-3">{{childItem.content}}</span>
+                            <span class="ms-2">{{childItem.content}}</span>
                         </div>
                     </div>
                 </div>

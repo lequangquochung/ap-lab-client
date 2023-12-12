@@ -18,6 +18,7 @@ import { ListNewsComponent } from './pages/list-news/list-news.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import {PaginatorModule} from 'primeng/paginator';
+import { TableModule } from 'primeng/table';
 import { LabDetailComponent } from './pages/lab-detail/lab-detail.component';
 
 @NgModule({
@@ -42,7 +43,8 @@ import { LabDetailComponent } from './pages/lab-detail/lab-detail.component';
     AppRoutingModule,
     HttpClientModule,
     CarouselModule,
-    PaginatorModule
+    PaginatorModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

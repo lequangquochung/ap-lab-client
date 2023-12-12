@@ -44,4 +44,19 @@
 
        
     }
+
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .employees-title{
+        font-size: 28px !important;
+    }
+    .content-lab-detail {
+        .col-item {
+            margin-right: auto;
+            flex-basis: 100%;
+            box-sizing: border-box;
+            margin-bottom: 1rem;
+        }
+    }
 }

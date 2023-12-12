@@ -3,10 +3,10 @@
 </div>
 <div class="container mt-5">
     <div class="row p-0">
-        <div class="content col-4 mb-5"  *ngFor="let item of data">
+        <div class="content col-md-6 col-lg-4 col-sm-12 mb-5"  *ngFor="let item of data">
             <div class="card-employee">
                 <div class="img-employee">
-                    <img [src]="item.avatar" width="320" height="170" alt="">
+                    <img class="img-mobile w-100" [src]="item.avatar" height="170" alt="">
                 </div>
                 <div class="content-employee mt-3">
                     <p class="e-name text-center">{{item.fullName}}</p>

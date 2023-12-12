@@ -14,7 +14,7 @@ import { IResponseData } from "../../models/response-data.model";
 
 
   getById(id: string): Observable<IResponseData<any>> {
-    return this.http.get<any>(`${this.apiBaseUrl}/cms/lab-service/${id}`);
+    return this.http.get<any>(`${this.apiBaseUrl}/lab-service/${id}`);
   }
     
 }

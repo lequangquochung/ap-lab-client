@@ -1,11 +1,11 @@
-<div class="row p-0 news-detail-nav d-flex align-items-center w-100 justify-content-center">
+<div class="row p-0 news-detail-nav d-flex align-items-center justify-content-center">
   <div class="w-75">
     <h1 class="text-center news-detail-title">{{dataNews?.title}}</h1>
-  </div>  
+  </div>
 </div>
 
-<div class="container py-5">  
+<div class="container py-5">
   <div class="news-content">
-    <div [innerHTML]="dataNews?.content"></div>
+    <div #contentHtml class="content-main" [innerHTML]="dataNews?.content"></div>
   </div>
 </div>

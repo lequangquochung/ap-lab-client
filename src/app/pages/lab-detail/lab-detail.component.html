@@ -1,5 +1,23 @@
 <div class="row p-0 news-detail-nav d-flex align-items-center w-100 justify-content-center">
   <div class="w-75">
     <h1 class="text-center news-detail-title">{{data?.title}}</h1>
-  </div>  
+  </div>
+</div>
+
+<div class="container d-flex justify-content-center text-center">
+  <div class="w-75 content">
+    <p-table [value]="data.details" responsiveLayout="stack" [breakpoint]="'960px'"
+      [tableStyle]="{'min-width': '50rem'}">
+      <ng-template pTemplate="header">
+        <tr>
+          <th>Dịch vụ</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-item>
+        <tr>
+          <td>* {{ item.content }}</td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
 </div>

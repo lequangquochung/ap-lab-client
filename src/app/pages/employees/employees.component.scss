@@ -1,5 +1,5 @@
 .card-employee {
-    width: 360px;
+    width: 100%;
     height: 390px;
     border-radius: 6px;
     border: 1px solid #FE894C;
@@ -39,4 +39,17 @@
         font-weight: 700;
         line-height: 48px;
     }
+}
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .employees-title {
+        font-size: 28px !important;
+    }
+    .container{
+        .img-mobile{
+            width: 100% !important;
+        }
+    }
+    
 }

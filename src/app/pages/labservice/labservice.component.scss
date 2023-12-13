@@ -9,6 +9,8 @@
   letter-spacing: 1px;
   box-shadow: 1.96957px 1.96957px 4.92392px 0px rgba(0, 0, 0, 0.25);
   color: white;
+  transition:all ease-in-out 0.3s;
+  position: relative;
 
   span {
     font-size: 20px;
@@ -16,6 +18,12 @@
     font-weight: 600;
     line-height: 24px;
   }
+}
+
+.btn-service:hover {
+  transform: translateY(-30px);
+  background-color: #E8F3F9;
+  color: black;
 }
 
 .title-service {
@@ -47,10 +55,14 @@
 
   .service-content {
     justify-content: center;
+
     .btn-service {
       width: 100%;
       margin-right: 0 !important;
+
     }
+
+
   }
 
 }

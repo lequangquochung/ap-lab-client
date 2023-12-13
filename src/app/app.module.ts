@@ -20,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
 import {PaginatorModule} from 'primeng/paginator';
 import { TableModule } from 'primeng/table';
 import { LabDetailComponent } from './pages/lab-detail/lab-detail.component';
+import { AboutDetailComponent } from './pages/about-detail/about-detail.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { LabDetailComponent } from './pages/lab-detail/lab-detail.component';
     NewsDetailComponent,
     ServiceDetailComponent,
     ListNewsComponent,
-    LabDetailComponent
+    LabDetailComponent,
+    AboutDetailComponent
   ],
   imports: [
     BrowserModule,

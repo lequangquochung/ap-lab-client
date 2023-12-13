@@ -1,12 +1,19 @@
 <div class="row p-0 news-detail-nav d-flex align-items-center justify-content-center">
-  <div class="w-75">
-    <h1 class="text-center news-detail-title">{{data?.title}}</h1>
-  </div>
+    <div class="w-75">
+        <h1 class="text-center news-detail-title">{{data?.title}}</h1>
+    </div>
 </div>
 
-<div class="container d-flex justify-content-center text-center">
-  <div class="w-75 content mb-5">
-    <p-table [value]="data.details" responsiveLayout="stack" [breakpoint]="'960px'"
+<div class="container d-flex justify-content-center">
+    <div class="w-50 content-service-detail mb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <ul >
+                    <li *ngFor="let item of data.details">{{item.content}}</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <p-table [value]="data.details" responsiveLayout="stack" [breakpoint]="'960px'"
       [tableStyle]="{'min-width': '50rem'}">
       <ng-template pTemplate="header">
         <tr>
@@ -18,6 +25,6 @@
           <td>* {{ item.content }}</td>
         </tr>
       </ng-template>
-    </p-table>
-  </div>
+    </p-table> -->
+    </div>
 </div>

@@ -6,6 +6,7 @@ import { ServiceDetailComponent } from './pages/service-detail/service-detail.co
 import { NewsDetailComponent } from './pages/news-detail/news-detail.component';
 import { ListNewsComponent } from './pages/list-news/list-news.component';
 import { LabDetailComponent } from './pages/lab-detail/lab-detail.component';
+import { AboutDetailComponent } from './pages/about-detail/about-detail.component';
 
 const routes: Routes = [
     {
@@ -24,8 +25,7 @@ const routes: Routes = [
     {
         path: 'topic',
         component: ListNewsComponent
-    }
-    ,
+    },
     {
         path: 'topic/:id',
         component: NewsDetailComponent
@@ -33,6 +33,10 @@ const routes: Routes = [
     {
         path: 'lab-detail/:id',
         component: LabDetailComponent
+    },
+    {
+        path:'about-us',
+        component: AboutDetailComponent
     }
 ];
 

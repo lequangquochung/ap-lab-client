@@ -17,6 +17,26 @@
     }
 }
 
-.content{
+.content {
     border: 1px solid #f1f1f1;
+}
+
+ul {
+    li {
+        margin-bottom: 1rem;
+    }
+}
+
+ul li::marker {
+    color: #FE894C;
+}
+
+.container {
+    .content-service-detail {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+   
 }

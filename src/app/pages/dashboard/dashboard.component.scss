@@ -59,6 +59,12 @@
     background-size: contain;
 }
 
+@media (min-width: 375px) and (max-width: 768px) {
+    .block-footer {
+        background-image: none;
+    }
+}
+
 .about-us{
     background-image: url('/assets/img/bg/frame-2-1920.jpg');
     background-position: center;
@@ -105,13 +111,4 @@
     .text-content{
         display: none;
     }
-    // .block-rec{
-    //     display: none;
-    // }
-    // .main-bottom-title{
-    //     font-size: 2rem;
-    // }
-    // .main-top-title{
-    //     font-size: 16px;
-    // }
   }

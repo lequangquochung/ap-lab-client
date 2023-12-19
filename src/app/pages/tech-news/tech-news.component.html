@@ -10,7 +10,7 @@
             <div class="col-6 main-news mb-5">
                 <div class="img-news">
                     <div>
-                        <img [src]="firstNews?.thumbnail" class="w-100 main-news-thumbnail" alt="" height="340">
+                        <img (error)="handleImageError($event)"  [src]="firstNews?.thumbnail" class="w-100 main-news-thumbnail" alt="" height="340">
                     </div>
                 </div>
                 <div class="main-news-content">
@@ -28,7 +28,7 @@
                 <ng-container>
                     <div class="d-flex mb-5" *ngFor="let item of data">
                         <div class="img-content-detail w-50 pe-4">
-                            <img [src]="item?.thumbnail" class="main-news-thumbnail" alt="" width="223" height="134">
+                            <img [src]="item?.thumbnail" (error)="handleImageError($event)" class="main-news-thumbnail" alt="" width="223" height="134">
                         </div>
                         <div (click)="clickToDetailNews(item.id)"
                             class="content-detail-text d-flex flex-column justify-content-between">

@@ -14,6 +14,7 @@ export class ListNewsComponent implements OnInit {
     imagePath: any;
     totalRecords: number = 0;
     rows: number = 10;
+    defaultImageUrl = 'assets/img/default-thumbnail.jpg';
     constructor(
         private router: Router,
         private topicService: TopicService,
@@ -66,7 +67,11 @@ export class ListNewsComponent implements OnInit {
                 }
             }
         });
-        
+    }
+
+    handleImageError(e: Event) {
+        const imgElement = e.target as HTMLImageElement;
+        imgElement.src =  this.defaultImageUrl;
     }
 }
 

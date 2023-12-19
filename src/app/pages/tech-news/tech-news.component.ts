@@ -12,6 +12,7 @@ export class TechNewsComponent implements OnInit {
     data: any;
     dataMobile: any;
     firstNews: any;
+    defaultImageUrl = 'assets/img/default-thumbnail.jpg';
     constructor(
         private router: Router,
         private _sanitizer: DomSanitizer,
@@ -50,6 +51,11 @@ export class TechNewsComponent implements OnInit {
 
     clickToDetailNews(id: string){
         this.router.navigate([`topic/${id}`]);
+    }
+
+    handleImageError(e: Event) {
+        const imgElement = e.target as HTMLImageElement;
+        imgElement.src =  this.defaultImageUrl;
     }
 
 }

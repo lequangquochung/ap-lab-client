@@ -1,4 +1,4 @@
-.about-text-title{
+.about-text-title {
   margin-left: 50px;
 }
 
@@ -14,37 +14,50 @@
   margin-right: 24px;
 }
 
-.img-about-us{
+.img-about-us {
   margin-left: 5rem;
 }
 
 
-.text-block-about-us{
+.text-block-about-us {
   width: 80%;
-  
+
+}
+
+.btn-action {
+  button {
+    color: #FE894C;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+  }
 }
 
 
-@media  (min-width: 375px) and (max-width: 768px) {
-  .block-rec{
+@media (min-width: 375px) and (max-width: 768px) {
+  .block-rec {
     display: none;
   }
-  .text-block-about-us{
+
+  .text-block-about-us {
     width: 100%;
   }
-  .img-block-about-us{
+
+  .img-block-about-us {
     display: none;
   }
-  .about-text-title{
+
+  .about-text-title {
     margin-left: 0;
     justify-content: center;
   }
-  #aboutUs{
+
+  #aboutUs {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
   }
-  .about-title{
+
+  .about-title {
     font-size: 28px;
   }
 }
-

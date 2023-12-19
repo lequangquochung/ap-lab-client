@@ -1,0 +1,248 @@
+.employe-nav {
+    height: 120px;
+    background-image: url('/assets/img/bg/employee-nav.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .employees-title {
+        color: #FE894C;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+}
+
+.container {
+    padding: 0 10rem;
+
+    .img-block {
+        .img-about {
+            width: 400px;
+            height: 400px;
+            border-radius: 40px;
+        }
+    }
+
+    .block-rec {
+        left: 6rem;
+        bottom: 28px;
+    }
+
+    .top-content {
+        .title {
+            color: #FE894C;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0.64px;
+            padding-left: 4rem;
+            text-align: center;
+        }
+        .top-content-text{
+            text-align: justify;
+        }
+    }
+
+    .tab-header-reverse {
+        background: linear-gradient(-90deg, #FE894C 0%, #FFF 100%) !important;
+        height: 80px;
+
+        .title {
+            font-weight: 700;
+            font-size: 32px;
+            color: white;
+            padding-right: 4rem;
+            margin-bottom: 0;
+        }
+    }
+
+    .service-block {
+        margin-top: 5rem;
+    }
+
+    .employees-block,
+    .devices-block {
+        margin-top: 3rem;
+    }
+
+    .tab-header {
+        height: 80px;
+        background: linear-gradient(90deg, #FE894C 0%, #FFF 100%);
+
+        .title {
+            font-weight: 700;
+            font-size: 32px;
+            color: white;
+            padding-left: 4rem;
+            margin-bottom: 0;
+        }
+    }
+
+    .software-block,
+    .manager-block {
+        .title {
+            font-weight: 600;
+            font-size: 22px;
+            color: #FE894C;
+        }
+
+        .text-content {
+            .content-child {
+                font-weight: 600;
+                color: #FE894C;
+            }
+        }
+    }
+
+    .content-device {
+        .device-title {
+            color: #FE894C;
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+
+
+    .content {
+        .crown-icon {
+            height: fit-content;
+        }
+
+        .left-content-title {
+            color: #FE894C;
+            font-weight: 600;
+            font-size: 22px;
+        }
+    }
+
+    .footer {
+        .title {
+            height: 80px;
+            background: #FE894C;
+
+            p {
+                color: white;
+                font-weight: 700;
+                font-size: 32px;
+            }
+        }
+
+        .thank-you {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+        }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+
+    .mobile-title-header{
+        display: block;
+    }
+    .crow-mobile {
+        padding-bottom: 5px;
+    }
+    .employees-title {
+        font-size: 26px !important;
+        padding: 0 2rem;
+    }
+
+    .container {
+        padding: 0;
+
+        .service-block{
+            margin-top: 3rem;
+        }
+
+        .devices-block{
+            .content-device{
+                padding: 0 1rem;
+            }
+            .device-thumnail{
+                text-align: center;
+            }
+        }
+
+        .software-block, .manager-block{
+            padding: 0 1rem;
+        }
+
+        .content {
+            padding: 0 1rem;
+
+            .left-content-title {
+                font-size: 18px;
+                padding-left: .5rem !important;
+            }
+           
+        }
+
+        .block-rec {
+            display: none;
+        }
+
+        .header-about-us {
+            .img-block {
+                text-align: center;
+
+                img {
+                    width: 350px !important;
+                    height: 350px !important;
+                }
+            }
+
+            .top-content {
+                margin-top: 1rem;
+                padding: 0 2rem;
+
+                .margin-mobile{
+                    margin-bottom: 1rem;
+                }
+
+                .block-rec {
+                    left: 1rem;
+                }
+
+                .title {
+                    font-size: 24px;
+                    padding-left: 0;
+                    text-align: center;
+                }
+            }
+        }
+
+        .tab-header-mobile {
+            background: #FE894C !important;
+
+            .title {
+                text-align: center;
+                font-size: 24px;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+
+    .footer{
+        .title{
+            text-align: center;
+            p {
+                font-size: 16px !important;
+            }
+        }
+        .footer-witdh-moble{
+            width: 100% !important;
+        }
+        .thank-you{
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+
+}

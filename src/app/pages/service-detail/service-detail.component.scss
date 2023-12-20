@@ -29,6 +29,12 @@
         }
     }
 
+    .layout-desktop {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+        gap: 10px;
+    }
+
     .col-item {
         flex-basis: calc(45%);
         margin-right: 2rem;
@@ -41,16 +47,15 @@
             margin: 3px 3px 3px 0;
             box-sizing: border-box;
         }
-
-       
     }
 
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
-    .employees-title{
+    .employees-title {
         font-size: 28px !important;
     }
+
     .content-lab-detail {
         .col-item {
             margin-right: auto;

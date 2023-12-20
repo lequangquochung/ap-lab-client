@@ -17,10 +17,6 @@
     }
 }
 
-.content {
-    border: 1px solid #f1f1f1;
-}
-
 ul {
     li {
         margin-bottom: 1rem;
@@ -34,6 +30,10 @@ ul li::marker {
 .container {
     .content-service-detail {
         width: 100% !important;
+    }
+    .content-detail{
+        border: 2px solid #FE894C;
+        border-radius: 1rem;
     }
 }
 

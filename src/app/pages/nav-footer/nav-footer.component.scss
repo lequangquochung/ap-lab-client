@@ -16,6 +16,11 @@ p {
     }
 }
 
+.content-top {
+    margin-left: 3rem !important;
+}
+
+
 .crown-icon {
     left: 2rem;
     top: -3px;
@@ -107,6 +112,7 @@ p {
                 margin: 0 !important;
                 justify-content: center;
                 width: 100%;
+                margin-left: -2rem !important;
 
                 .crown-icon {
                     left: 0;
@@ -121,6 +127,9 @@ p {
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                .content-top{
+                    margin-left: 0 !important;
+                }
             }
 
             .footer-title-contact-text {

@@ -6,7 +6,7 @@
         <div class="col-md-10 mt-5 mobile-mt" >
             <div class="content-news d-flex">
                 <div class="thumnails me-5">
-                    <img (error)="handleImageError($event)" [src]="topic.thumbnail" width="200" alt="">
+                    <img (error)="handleImageError($event)" [src]="topic.thumbnail" width="200" height="180" alt="">
                 </div>
                 <div class="content-news-text">
                     <p class="news-title"  (click)="clickToDetailNews(topic.id)">

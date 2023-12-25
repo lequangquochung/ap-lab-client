@@ -40,8 +40,8 @@
     </div>
   </nav>
 <div class="main-content position-relative">
-    <img src="assets/img/bg/frame-1-resize.png" class="w-100" alt="">
-    <div class="text-content position-absolute">
+    <img [src]="backgroundSrc" (error)="handleImageError($event)" class="w-100" style="height: fit-content;" alt="">
+    <!-- <div class="text-content position-absolute">
         <div class="top-block d-flex">
             <div class="block-rec"></div>
             <span class="main-top-title">TRUNG TÂM XÉT NGHIỆM Y KHOA</span>
@@ -57,8 +57,7 @@
                 <a class="nav-link p-0" href="tel:0927633733">Liên Hệ </a>
             </button>
         </div>
-    </div>
-
+    </div> -->
 </div>
 <div class="about-us">
     <div class="container">
